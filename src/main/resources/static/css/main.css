@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    font-family: Comfortaa;
+}
+
+body{
+    background-color: rgb(211,217,226);
+}
+
+.container{
+    margin: 10px auto;
+}
+.main-page-header{
+    padding: 10px 0px;
+}
+
+.main-page-header .company-name{
+    font-weight: 600;
+}
+
+.navigation{
+    margin-left: 20px;
+}
+
+.navigation li{
+    display: inline-block;
+    list-style-type: none;
+    margin: 0px 15px;
+}
+
+.navigation li a{
+    color: white;
+    text-decoration: none;
+}
+
+.display-name {
+    font-weight: 600;
+}
+
+#transact-btn{
+    background-color: #EDCBA9;
+    border: 1px solid #3e352c;
+    padding: 10px;
+    width: 200px;
+    color: white;
+    box-shadow: 0px 3px 6px rgb(0,14,53);
+}
+
+
+#account-btn{
+    background-color: #3E6074;
+    border: 1px solid #3e352c;
+    padding: 10px;
+    width: 200px;
+    color: white;
+    box-shadow: 0px 3px 6px rgb(0,14,53);
+}
+
+
+/* offcanvas */
+
+.offcanvas{
+    background-image: url("../images/offcanvas_bg.png");
+    font-family: Comfortaa;
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+
+
+.card .payment-card {
+    display: none;
+}
+
+
+.card .enrollment-card{
+    display: none;
+}
+
+.card .refund-card{
+    display: none;
+}
+
+
+.card .completion-card{
+    display: none;
+}
